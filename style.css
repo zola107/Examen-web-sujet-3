@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 189, 189);
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;    
+    padding: 1rem 2rem;
+    background-color: rgb(230, 227, 198);
+}
+
+.menu {
+    list-style: none;
+  display: flex;
+}
+.lien {
+  display: flex;
+  margin: 0 15px;
+}
+
+.lien a {
+    text-decoration: none;
+    color: rgb(126, 0, 199);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+
+input, textarea {
+    width: 100%;
+    box-sizing; border-box;
+    margin-button: 1rem;
+    padding: 0,5rem;
+    border: 1px;
+
+}
