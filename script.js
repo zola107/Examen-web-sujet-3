@@ -1,6 +1,7 @@
-console.log("Le script est chargé !")
+console.log("Le script est chargé !");
 
 
+//--------------------------------------------------------- affiche le bouton en vert si on clique dessus 
 const themeButton1 = document.querySelector('#bouton1');
 
 
@@ -10,8 +11,14 @@ if (themeButton1) {
     });
 }
 
-const themeButton2 = document.querySelector('#bouton2');
 
+
+
+
+
+//---------------------------------------------------------affiche le bouton en rouge si on clique dessus 
+
+const themeButton2 = document.querySelector('#bouton2');
 
 if (themeButton2) {  
     themeButton2.addEventListener('click', () => {
@@ -20,8 +27,13 @@ if (themeButton2) {
 }
 
 
-const themeButton3 = document.querySelector('#bouton3');
 
+
+
+
+//---------------------------------------------------------affiche le bouton en rouge si on clique dessus 
+
+const themeButton3 = document.querySelector('#bouton3');
 
 if (themeButton3) {  
     themeButton3.addEventListener('click', () => {
@@ -31,8 +43,11 @@ if (themeButton3) {
 
 
 
-const themeButton4 = document.querySelector('#bouton4');
 
+
+//---------------------------------------------------------affiche le bouton en rouge si on clique dessus 
+
+const themeButton4 = document.querySelector('#bouton4');
 
 if (themeButton4) {  
     themeButton4.addEventListener('click', () => {
@@ -41,8 +56,13 @@ if (themeButton4) {
 }
 
 
-const themeButton5 = document.querySelector('#bouton5');
 
+
+
+
+//---------------------------------------------------------affiche le bouton en rouge si on clique dessus 
+
+const themeButton5 = document.querySelector('#bouton5');
 
 if (themeButton5) {  
     themeButton5.addEventListener('click', () => {
@@ -51,8 +71,14 @@ if (themeButton5) {
 }
 
 
-const themeButton6 = document.querySelector('#bouton6');
 
+
+
+
+//---------------------------------------------------------affiche le bouton en rouge si on clique dessus 
+
+
+const themeButton6 = document.querySelector('#bouton6');
 
 if (themeButton6) {  
     themeButton6.addEventListener('click', () => {
@@ -61,8 +87,13 @@ if (themeButton6) {
 }
 
 
-const themeButton7 = document.querySelector('#bouton7');
 
+
+
+
+//---------------------------------------------------------affiche le bouton en rouge si on clique dessus 
+
+const themeButton7 = document.querySelector('#bouton7');
 
 if (themeButton7) {  
     themeButton7.addEventListener('click', () => {
@@ -71,8 +102,12 @@ if (themeButton7) {
 }
 
 
-const themeButton8 = document.querySelector('#bouton8');
 
+
+
+//---------------------------------------------------------affiche le bouton en rouge si on clique dessus 
+
+const themeButton8 = document.querySelector('#bouton8');
 
 if (themeButton8) {  
     themeButton8.addEventListener('click', () => {
@@ -80,8 +115,14 @@ if (themeButton8) {
     });
 }
 
-const themeButton9 = document.querySelector('#bouton9');
 
+
+
+
+//---------------------------------------------------------affiche le bouton en vert si on clique dessus 
+
+
+const themeButton9 = document.querySelector('#bouton9');
 
 if (themeButton9) {  
     themeButton9.addEventListener('click', () => {
@@ -89,7 +130,10 @@ if (themeButton9) {
     });
 }
 
-//------------------------------------------------------------------------------------------------------------------------------------
+
+
+//---------------------------------------------------------//---------------------------------------------------------affiche les liens quand on clique sur un bouton de type vert
+
 
 const bouton1 = document.querySelector('#bouton1');
 const lienSuivant = document.querySelector('#lien-suivant');
@@ -108,3 +152,65 @@ if (bouton1) {
 }
 
 
+
+
+
+//---------------------------------------------------------//---------------------------------------------------------affiche les liens quand on clique sur un bouton de type vert
+
+const bouton5 = document.querySelector('#bouton5');
+const lienSuivant2 = document.querySelector('#lien-suivant2');
+
+if (bouton5) {
+    bouton5.addEventListener('click', () => {
+
+        if (bouton5.classList.contains('vert')) {
+            lienSuivant2.classList.remove('cache');
+        } 
+        
+        else {
+            lienSuivant2.classList.add('cache');
+        }
+    });
+}
+
+
+
+
+//---------------------------------------------------------//---------------------------------------------------------affiche le messages de fin quand on clique sur le dernier bouton
+
+
+const bouton9 = document.querySelector('#bouton9');
+const lienSuivant3 = document.querySelector('#lien-suivant3');
+
+if (bouton9) {
+    bouton9.addEventListener('click', () => {
+
+        if (bouton9.classList.contains('vert')) {
+            lienSuivant3.classList.remove('cache');
+        } 
+        
+        else {
+            lienSuivant3.classList.add('cache');
+        }
+    });
+}
+
+
+
+
+//---------------------------------------------------------//---------------------------------------------------------affiche l'image de fin quand on clique sur le dernier bouton juste 
+const bouton10 = document.querySelector('#bouton9');
+const lienSuivant4 = document.querySelector('#lien-suivant4');
+
+if (bouton9) {
+    bouton9.addEventListener('click', () => {
+
+        if (bouton9.classList.contains('vert')) {
+            lienSuivant4.classList.remove('cache');
+        } 
+        
+        else {
+            lienSuivant4.classList.add('cache');
+        }
+    });
+}
