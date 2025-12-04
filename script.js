@@ -214,3 +214,40 @@ if (bouton9) {
         }
     });
 }
+
+//---------------------------------------------------------//---------------------------------------------------------affiche l'image de fin quand on clique sur le second bouton juste 
+
+const bouton11 = document.querySelector('#bouton5');
+const lienSuivant5 = document.querySelector('#lien-suivant5');
+
+if (bouton5) {
+    bouton5.addEventListener('click', () => {
+
+        if (bouton5.classList.contains('vert')) {
+            lienSuivant5.classList.remove('cache');
+        } 
+        
+        else {
+            lienSuivant5.classList.add('cache');
+        }
+    });
+}
+
+//---------------------------------------------------------//---------------------------------------------------------affiche l'image de fin quand on clique sur le premier bouton juste 
+
+
+const bouton12 = document.querySelector('#bouton1');
+const lienSuivant6 = document.querySelector('#lien-suivant6');
+
+if (bouton1) {
+    bouton1.addEventListener('click', () => {
+
+        if (bouton1.classList.contains('vert')) {
+            lienSuivant6.classList.remove('cache');
+        } 
+        
+        else {
+            lienSuivant6.classList.add('cache');
+        }
+    });
+}
