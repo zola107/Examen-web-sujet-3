@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(109, 124, 212, 0.747);
+    background: linear-gradient(rgba(25, 49, 187, 0.438), rgb(34, 88, 202));
     color: rgb(3, 3, 3);
     margin: 0;
     font-size: 30px
@@ -71,3 +71,6 @@ button:hover {
     color: rgb(0, 0, 0);
 }
 
+image {
+    scale: 30px;
+}
