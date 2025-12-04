@@ -88,3 +88,21 @@ if (themeButton9) {
         themeButton9.classList.toggle('vert');
     });
 }
+
+//------------------------------------------------------------------------------------------------------------------------------------
+
+const bouton1 = document.querySelector('#bouton1');
+const lienSuivant = document.querySelector('#lien-suivant');
+
+if (bouton1) {
+    bouton1.addEventListener('click', () => {
+
+        if (bouton1.classList.contains('vert')) {
+            lienSuivant.classList.remove('cache');
+        } 
+        
+        else {
+            lienSuivant.classList.add('cache');
+        }
+    });
+}
