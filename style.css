@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(161, 131, 211, 0.384);
+    background-color: rgba(103, 98, 112, 0.384);
     color: rgb(3, 3, 3);
     margin: 0;
 }
@@ -30,6 +30,12 @@ input[type="submit"]:hover {
     transition: rgb(9, 255, 0)
 }
 
-body.vert{
-  color: #06ff45;
+.vert {
+    background-color: green;
+    color: white;
+}
+
+.rouge {
+    background-color: rgb(252, 0, 0);
+    color: white;
 }
